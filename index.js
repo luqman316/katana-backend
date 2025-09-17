@@ -9,7 +9,7 @@ import projectRoutes from "./routes/projectRoutes.js";
 dotenv.config();
 connectDB();
 
-const allowedOrigins = [process.env.FRONTEND_URL || "http://localhost:3000"]; // Add your frontend URLs here
+const allowedOrigins = [process.env.FRONTEND_URL_DEPLOY || "http://localhost:3000"]; // Add your frontend URLs here
 
 const app = express();
 
